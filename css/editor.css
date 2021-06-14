@@ -1,0 +1,28 @@
+body {
+    background: #5564eb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header1 {
+    width: 80%;
+    height: 100px;
+    background: #f5f5dc;
+    display: flex;
+    justify-content: center;
+}
+.contenido {
+    margin: auto;
+}
+@media (min-width: 1024px) {
+    .contenido {
+        width: 800px;
+        height: 500px;
+    }
+}
+
+@media (min-width:768px) {
+    .contenido {
+        width: 100%;
+        height: 100%;
+    }
+}
